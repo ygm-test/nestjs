@@ -1,7 +1,7 @@
 
 import { Controller, Post, Body, Get, Param, Patch, Delete } from '@nestjs/common';
 
-import {ProductsService} from './services/products.service';
+import {ProductsService} from '../services/products.service';
 
 
 

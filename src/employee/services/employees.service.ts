@@ -65,4 +65,7 @@ export class EmployeeService {
     const index = this.findEmployee(empId)[1]; //como tenemos [Employee, number], (empId)[1] nos trae el dato 'number' (siendo [0] el employee).
     this.employees.splice(index, 1); //splice toma el starting point y despues borra el elemento inmediato que sigue.
   }
+
+async getData
+
 }
